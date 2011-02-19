@@ -1,0 +1,12 @@
+//
+// Prefix header for all source files of the 'Annotation_ArraySample' target in the 'Annotation_ArraySample' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+	#import <MapKit/MapKit.h>
+	#import "Annotation_ArraySampleAppDelegate.h"
+	#import "Annotation_ArraySampleViewController.h"
+	#import "Annotation_ArraySampleMyAnnotation.h"
+#endif
