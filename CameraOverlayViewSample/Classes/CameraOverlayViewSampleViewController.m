@@ -71,10 +71,10 @@
 	picker.cameraOverlayView.userInteractionEnabled = NO;
 	
 	UIImage *buttonViewImage = [UIImage imageNamed:@"GoogleBadge"];
-	//buttonView.center = CGPointMake(240, 320);
 	
 	UIButton *backButton = [[[UIButton alloc] initWithFrame:CGRectMake(100, 100, 138, 46)] autorelease];
 	[backButton setBackgroundImage:buttonViewImage forState:UIControlStateNormal];
+	//forState:のコントロールの種類を変えれば、例えばドラッグなどにも対応できる
 	
 	[backButton addTarget:self action:@selector(backButtonAction) forControlEvents:UIControlEventTouchUpInside];
 	

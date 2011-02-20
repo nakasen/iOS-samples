@@ -29,9 +29,9 @@
 	};
 	28D7ACF70DDB3853001CB0EB /* CameraOverlayViewSampleViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {950, 1535}}";
-			sepNavSelRange = "{2729, 0}";
-			sepNavVisRange = "{2140, 815}";
+			sepNavIntBoundsRect = "{{0, 0}, {950, 1567}}";
+			sepNavSelRange = "{2209, 0}";
+			sepNavVisRange = "{2051, 600}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -153,13 +153,25 @@
 		indexTemplatePath = "";
 	};
 	B43A16A01311167A00674230 /* CustomImagePicker.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = CustomImagePicker.h;
+		path = /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CustomImagePicker.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {722, 320}}";
+			sepNavIntBoundsRect = "{{0, 0}, {722, 316}}";
 			sepNavSelRange = "{153, 0}";
 			sepNavVisRange = "{0, 205}";
 		};
 	};
 	B43A16A11311167A00674230 /* CustomImagePicker.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = CustomImagePicker.m;
+		path = /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CustomImagePicker.m;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {722, 320}}";
 			sepNavSelRange = "{152, 0}";
@@ -253,7 +265,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* CameraOverlayViewSampleViewController.m */;
 		name = "CameraOverlayViewSampleViewController.m: 77";
 		rLen = 0;
-		rLoc = 2590;
+		rLoc = 2589;
 		rType = 0;
 		vrLen = 782;
 		vrLoc = 1882;
@@ -273,7 +285,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* CameraOverlayViewSampleViewController.m */;
 		name = "CameraOverlayViewSampleViewController.m: 85";
 		rLen = 0;
-		rLoc = 2652;
+		rLoc = 2651;
 		rType = 0;
 		vrLen = 808;
 		vrLoc = 1935;
@@ -284,7 +296,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* CameraOverlayViewSampleViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 75;
+		rLoc = 74;
 		rType = 1;
 	};
 	B43D4B501311310500649953 /* PBXTextBookmark */ = {
@@ -292,7 +304,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* CameraOverlayViewSampleViewController.m */;
 		name = "CameraOverlayViewSampleViewController.m: 76";
 		rLen = 0;
-		rLoc = 2255;
+		rLoc = 2209;
 		rType = 0;
 		vrLen = 543;
 		vrLoc = 2051;
@@ -303,7 +315,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* CameraOverlayViewSampleViewController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 75;
+		rLoc = 74;
 		rType = 1;
 	};
 	B43D4B541311315C00649953 /* PBXTextBookmark */ = {
@@ -311,7 +323,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* CameraOverlayViewSampleViewController.m */;
 		name = "CameraOverlayViewSampleViewController.m: 76";
 		rLen = 0;
-		rLoc = 2341;
+		rLoc = 2295;
 		rType = 0;
 		vrLen = 769;
 		vrLoc = 1913;
@@ -321,7 +333,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* CameraOverlayViewSampleViewController.m */;
 		name = "CameraOverlayViewSampleViewController.m: 88";
 		rLen = 0;
-		rLoc = 2729;
+		rLoc = 2728;
 		rType = 0;
 		vrLen = 815;
 		vrLoc = 2140;

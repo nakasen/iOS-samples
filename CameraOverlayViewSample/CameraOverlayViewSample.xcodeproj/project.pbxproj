@@ -13,7 +13,6 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28D7ACF80DDB3853001CB0EB /* CameraOverlayViewSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* CameraOverlayViewSampleViewController.m */; };
-		B43A16A21311167A00674230 /* CustomImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B43A16A11311167A00674230 /* CustomImagePicker.m */; };
 		B43A16D113111E9B00674230 /* GoogleBadge.png in Resources */ = {isa = PBXBuildFile; fileRef = B43A16D013111E9B00674230 /* GoogleBadge.png */; };
 /* End PBXBuildFile section */
 
@@ -29,8 +28,6 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* CameraOverlayViewSample_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraOverlayViewSample_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CameraOverlayViewSample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CameraOverlayViewSample-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		B43A16A01311167A00674230 /* CustomImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomImagePicker.h; sourceTree = "<group>"; };
-		B43A16A11311167A00674230 /* CustomImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomImagePicker.m; sourceTree = "<group>"; };
 		B43A16D013111E9B00674230 /* GoogleBadge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoogleBadge.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,8 +52,6 @@
 				1D3623250D0F684500981E51 /* CameraOverlayViewSampleAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* CameraOverlayViewSampleViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* CameraOverlayViewSampleViewController.m */,
-				B43A16A01311167A00674230 /* CustomImagePicker.h */,
-				B43A16A11311167A00674230 /* CustomImagePicker.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -180,7 +175,6 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* CameraOverlayViewSampleAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* CameraOverlayViewSampleViewController.m in Sources */,
-				B43A16A21311167A00674230 /* CustomImagePicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

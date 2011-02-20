@@ -7,5 +7,4 @@
     #import <UIKit/UIKit.h>
 	#import "CameraOverlayViewSampleAppDelegate.h"
 	#import "CameraOverlayViewSampleViewController.h"
-	#import "CustomImagePicker.h"
 #endif
