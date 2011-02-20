@@ -1,0 +1,312 @@
+TCameraOverlayViewSample
+v7
+r0
+t319888793.143988
+cCheck dependencies
+cCpResource build/Debug-iphoneos/CameraOverlayViewSample.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app/Info.plist CameraOverlayViewSample-Info.plist
+cProcessPCH /var/folders/YG/YG79OJyO2Ra1+k+BYoaOQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CameraOverlayViewSample_Prefix-hexlidkljulctvflucjrvtfqhodq/CameraOverlayViewSample_Prefix.pch.gch CameraOverlayViewSample_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/Objects-normal/armv7/main.o /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/Objects-normal/armv7/CameraOverlayViewSampleAppDelegate.o /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/Objects-normal/armv7/CameraOverlayViewSampleViewController.o /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/Objects-normal/armv7/CustomImagePicker.o /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CustomImagePicker.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app/CameraOverlayViewSample normal armv7
+cGenerateDSYMFile /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app.dSYM /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app/CameraOverlayViewSample
+cProcessProductPackaging "/Users/nakagawasatoshi/Library/MobileDevice/Provisioning Profiles/58E1E1AB-99BF-4572-9719-80421BDF00A1.mobileprovision" /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app/embedded.mobileprovision
+cTouch /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/CameraOverlayViewSample.xcent
+cCodeSign /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/CameraOverlayViewSample_Prefix.pch
+c000000004D60E37F0000000000000159
+t1298195327
+s345
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"CameraOverlayViewSampleAppDelegate.h"
+i"CameraOverlayViewSampleViewController.h"
+i"CustomImagePicker.h"
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleAppDelegate.h
+c000000004D60DB860000000000000225
+t1298193286
+s549
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleAppDelegate.m
+c000000004D60DB860000000000000B62
+t1298193286
+s2914
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleViewController.h
+c000000004D60E4640000000000000128
+t1298195556
+s296
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleViewController.m
+c000000004D60E4990000000000000C9C
+t1298195609
+s3228
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CustomImagePicker.h
+c000000004D60E37F00000000000000D3
+t1298195327
+s211
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CustomImagePicker.m
+c000000004D60E37F00000000000000C8
+t1298195327
+s200
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/CameraOverlayViewSample.xcent
+t1298195992
+s440
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/Objects-normal/armv7/CameraOverlayViewSample.LinkFileList
+c000000004D60E61700000000000002E4
+t1298195991
+s740
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/Objects-normal/armv7/CameraOverlayViewSampleAppDelegate.o
+t1298195992
+s54756
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/Objects-normal/armv7/CameraOverlayViewSampleViewController.o
+t1298195992
+s47584
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/Objects-normal/armv7/CustomImagePicker.o
+t1298195992
+s5320
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/Objects-normal/armv7/main.o
+t1298195992
+s6736
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app
+t1298195993
+s306
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app.dSYM
+t1298195992
+s102
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app/CameraOverlayViewSample
+t1298195992
+s24156
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app/Info.plist
+t1298195991
+s814
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app/PkgInfo
+t1298195991
+s8
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app/ResourceRules.plist
+t1298195991
+s485
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app/embedded.mobileprovision
+t1298195992
+s7302
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/main.m
+c000000004D60DB86000000000000019A
+t1298193286
+s410
+i<UIKit/UIKit.h>
+
+N/Users/nakagawasatoshi/Library/MobileDevice/Provisioning Profiles/58E1E1AB-99BF-4572-9719-80421BDF00A1.mobileprovision
+c000000004D4162110000000000001C86
+t1296130577
+s7302
+
+N/var/folders/YG/YG79OJyO2Ra1+k+BYoaOQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CameraOverlayViewSample_Prefix-hexlidkljulctvflucjrvtfqhodq/CameraOverlayViewSample_Prefix.pch.gch
+t1298195992
+s10467116
+
+NCameraOverlayViewSample-Info.plist
+c000000004D60E60B0000000000000346
+t1298195979
+s838
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies319888791#319888791#0(0"0(0#1#0"8618611872#0"0#
+
+CCodeSign /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app
+s319888792.880946
+e319888793.143790
+r1
+xCodeSign
+x/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app
+lSLF07#2@57"CodeSign build/Debug-iphoneos/CameraOverlayViewSample.app319888792#319888793#0(0"0(0#0#105"/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app8618034720#804"    cd /Users/nakagawasatoshi/Documents/CameraOverlayViewSample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Satoshi Nakagawa (UAW5PSPFP7)" --resource-rules=/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app/ResourceRules.plist --entitlements /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/CameraOverlayViewSample.xcent /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app0#
+
+CCompileC build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/Objects-normal/armv7/CameraOverlayViewSampleAppDelegate.o /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319888792.404259
+e319888792.622396
+r1
+xCompileC
+xbuild/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/Objects-normal/armv7/CameraOverlayViewSampleAppDelegate.o
+x/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@109"Compile /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleAppDelegate.m319888792#319888792#0(0"0(0#0#101"/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleAppDelegate.m8616691968#2310"    cd /Users/nakagawasatoshi/Documents/CameraOverlayViewSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/CameraOverlayViewSample-generated-files.hmap -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/CameraOverlayViewSample-own-target-headers.hmap -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/CameraOverlayViewSample-all-target-headers.hmap -iquote /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/CameraOverlayViewSample-project-headers.hmap -F/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/include -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/DerivedSources/armv7 -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/DerivedSources -include /var/folders/YG/YG79OJyO2Ra1+k+BYoaOQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CameraOverlayViewSample_Prefix-hexlidkljulctvflucjrvtfqhodq/CameraOverlayViewSample_Prefix.pch -c /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleAppDelegate.m -o /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/Objects-normal/armv7/CameraOverlayViewSampleAppDelegate.o0#
+
+CCompileC build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/Objects-normal/armv7/CameraOverlayViewSampleViewController.o /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319888792.584899
+e319888792.752453
+r1
+xCompileC
+xbuild/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/Objects-normal/armv7/CameraOverlayViewSampleViewController.o
+x/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@112"Compile /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleViewController.m319888792#319888792#0(0"0(0#0#104"/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleViewController.m8621728416#2316"    cd /Users/nakagawasatoshi/Documents/CameraOverlayViewSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/CameraOverlayViewSample-generated-files.hmap -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/CameraOverlayViewSample-own-target-headers.hmap -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/CameraOverlayViewSample-all-target-headers.hmap -iquote /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/CameraOverlayViewSample-project-headers.hmap -F/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/include -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/DerivedSources/armv7 -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/DerivedSources -include /var/folders/YG/YG79OJyO2Ra1+k+BYoaOQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CameraOverlayViewSample_Prefix-hexlidkljulctvflucjrvtfqhodq/CameraOverlayViewSample_Prefix.pch -c /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleViewController.m -o /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/Objects-normal/armv7/CameraOverlayViewSampleViewController.o0#
+
+CCompileC build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/Objects-normal/armv7/CustomImagePicker.o /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CustomImagePicker.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319888792.622563
+e319888792.708271
+r1
+xCompileC
+xbuild/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/Objects-normal/armv7/CustomImagePicker.o
+x/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CustomImagePicker.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CustomImagePicker.m319888792#319888792#0(0"0(0#0#84"/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CustomImagePicker.m8621572192#2276"    cd /Users/nakagawasatoshi/Documents/CameraOverlayViewSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/CameraOverlayViewSample-generated-files.hmap -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/CameraOverlayViewSample-own-target-headers.hmap -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/CameraOverlayViewSample-all-target-headers.hmap -iquote /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/CameraOverlayViewSample-project-headers.hmap -F/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/include -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/DerivedSources/armv7 -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/DerivedSources -include /var/folders/YG/YG79OJyO2Ra1+k+BYoaOQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CameraOverlayViewSample_Prefix-hexlidkljulctvflucjrvtfqhodq/CameraOverlayViewSample_Prefix.pch -c /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CustomImagePicker.m -o /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/Objects-normal/armv7/CustomImagePicker.o0#
+
+CCompileC build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/Objects-normal/armv7/main.o /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319888792.402665
+e319888792.584740
+r1
+xCompileC
+xbuild/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/Objects-normal/armv7/main.o
+x/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/main.m319888792#319888792#0(0"0(0#0#63"/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/main.m8617108320#2242"    cd /Users/nakagawasatoshi/Documents/CameraOverlayViewSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/CameraOverlayViewSample-generated-files.hmap -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/CameraOverlayViewSample-own-target-headers.hmap -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/CameraOverlayViewSample-all-target-headers.hmap -iquote /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/CameraOverlayViewSample-project-headers.hmap -F/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/include -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/DerivedSources/armv7 -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/DerivedSources -include /var/folders/YG/YG79OJyO2Ra1+k+BYoaOQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CameraOverlayViewSample_Prefix-hexlidkljulctvflucjrvtfqhodq/CameraOverlayViewSample_Prefix.pch -c /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/main.m -o /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/Objects-normal/armv7/main.o0#
+
+CCpResource build/Debug-iphoneos/CameraOverlayViewSample.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s319888791.494615
+e319888791.515308
+r1
+xCpResource
+xbuild/Debug-iphoneos/CameraOverlayViewSample.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist319888791#319888791#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8606492928#546"    cd /Users/nakagawasatoshi/Documents/CameraOverlayViewSample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app0#
+
+CGenerateDSYMFile /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app.dSYM /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app/CameraOverlayViewSample
+s319888792.845228
+e319888792.871588
+r1
+xGenerateDSYMFile
+x/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app.dSYM
+x/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app/CameraOverlayViewSample
+lSLF07#2@143"GenerateDSYMFile build/Debug-iphoneos/CameraOverlayViewSample.app.dSYM build/Debug-iphoneos/CameraOverlayViewSample.app/CameraOverlayViewSample319888792#319888792#0(0"0(0#0#129"/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app/CameraOverlayViewSample8619096960#464"    cd /Users/nakagawasatoshi/Documents/CameraOverlayViewSample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app/CameraOverlayViewSample -o /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app.dSYM0#
+
+CLd /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app/CameraOverlayViewSample normal armv7
+s319888792.752594
+e319888792.845078
+r1
+xLd
+x/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app/CameraOverlayViewSample
+xnormal
+xarmv7
+lSLF07#2@134"Link /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app/CameraOverlayViewSample319888792#319888792#0(0"0(0#0#0"8604714176#992"    cd /Users/nakagawasatoshi/Documents/CameraOverlayViewSample    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos -F/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos -filelist /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/Objects-normal/armv7/CameraOverlayViewSample.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app/CameraOverlayViewSample0#
+
+CProcessInfoPlistFile /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app/Info.plist CameraOverlayViewSample-Info.plist
+s319888791.499120
+e319888791.504296
+r1
+xProcessInfoPlistFile
+x/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app/Info.plist
+xCameraOverlayViewSample-Info.plist
+lSLF07#2@42"Process CameraOverlayViewSample-Info.plist319888791#319888791#0(0"0(0#0#91"/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/CameraOverlayViewSample-Info.plist8595084416#698"    cd /Users/nakagawasatoshi/Documents/CameraOverlayViewSample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility CameraOverlayViewSample-Info.plist -genpkginfo /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app/ResourceRules.plist -o /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app/Info.plist0#
+
+CProcessPCH /var/folders/YG/YG79OJyO2Ra1+k+BYoaOQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CameraOverlayViewSample_Prefix-hexlidkljulctvflucjrvtfqhodq/CameraOverlayViewSample_Prefix.pch.gch CameraOverlayViewSample_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s319888791.515501
+e319888792.402510
+r1
+xProcessPCH
+x/var/folders/YG/YG79OJyO2Ra1+k+BYoaOQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CameraOverlayViewSample_Prefix-hexlidkljulctvflucjrvtfqhodq/CameraOverlayViewSample_Prefix.pch.gch
+xCameraOverlayViewSample_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Precompile CameraOverlayViewSample_Prefix.pch319888791#319888792#0(0"0(0#0#91"/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/CameraOverlayViewSample_Prefix.pch8615480128#2106"    cd /Users/nakagawasatoshi/Documents/CameraOverlayViewSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/CameraOverlayViewSample-generated-files.hmap -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/CameraOverlayViewSample-own-target-headers.hmap -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/CameraOverlayViewSample-all-target-headers.hmap -iquote /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/CameraOverlayViewSample-project-headers.hmap -F/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/include -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/DerivedSources/armv7 -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/DerivedSources -c /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/CameraOverlayViewSample_Prefix.pch -o /var/folders/YG/YG79OJyO2Ra1+k+BYoaOQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CameraOverlayViewSample_Prefix-hexlidkljulctvflucjrvtfqhodq/CameraOverlayViewSample_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/nakagawasatoshi/Library/MobileDevice/Provisioning Profiles/58E1E1AB-99BF-4572-9719-80421BDF00A1.mobileprovision" /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app/embedded.mobileprovision
+s319888792.871763
+e319888792.873699
+r1
+xProcessProductPackaging
+x/Users/nakagawasatoshi/Library/MobileDevice/Provisioning Profiles/58E1E1AB-99BF-4572-9719-80421BDF00A1.mobileprovision
+x/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app/embedded.mobileprovision
+lSLF07#2@218"ProcessProductPackaging "/Users/nakagawasatoshi/Library/MobileDevice/Provisioning Profiles/58E1E1AB-99BF-4572-9719-80421BDF00A1.mobileprovision" build/Debug-iphoneos/CameraOverlayViewSample.app/embedded.mobileprovision319888792#319888792#0(0"0(0#0#130"/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app/embedded.mobileprovision8618900288#485"    cd /Users/nakagawasatoshi/Documents/CameraOverlayViewSample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/nakagawasatoshi/Library/MobileDevice/Provisioning Profiles/58E1E1AB-99BF-4572-9719-80421BDF00A1.mobileprovision" -o /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/CameraOverlayViewSample.xcent
+s319888792.878353
+e319888792.880837
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/CameraOverlayViewSample.xcent
+lSLF07#2@223"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/CameraOverlayViewSample.xcent319888792#319888792#0(0"0(0#0#167"/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/CameraOverlayViewSample.xcent8618469760#516"    cd /Users/nakagawasatoshi/Documents/CameraOverlayViewSample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphoneos/CameraOverlayViewSample.build/CameraOverlayViewSample.xcent0#
+
+CTouch /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app
+s319888792.873793
+e319888792.878219
+r1
+xTouch
+x/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app
+lSLF07#2@111"Touch /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app319888792#319888792#0(0"0(0#0#0"8618752704#316"    cd /Users/nakagawasatoshi/Documents/CameraOverlayViewSample    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphoneos/CameraOverlayViewSample.app0#
+

@@ -1,0 +1,250 @@
+TCameraOverlayViewSample
+v7
+r0
+t319886088.507466
+cCheck dependencies
+cProcessInfoPlistFile /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app/Info.plist CameraOverlayViewSample-Info.plist
+cProcessPCH /var/folders/YG/YG79OJyO2Ra1+k+BYoaOQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CameraOverlayViewSample_Prefix-czcwyusjgzwxsgatfddwsbjlggmc/CameraOverlayViewSample_Prefix.pch.gch CameraOverlayViewSample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/Objects-normal/i386/main.o /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/Objects-normal/i386/CameraOverlayViewSampleAppDelegate.o /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/Objects-normal/i386/CameraOverlayViewSampleViewController.o /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app/CameraOverlayViewSample normal i386
+cGenerateDSYMFile /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app.dSYM /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app/CameraOverlayViewSample
+cTouch /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/CameraOverlayViewSampleViewController.xib
+c000000004D60D9560000000000001A85
+t1298192726
+s6789
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/CameraOverlayViewSample_Prefix.pch
+c000000004D60DB86000000000000013A
+t1298193286
+s314
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"CameraOverlayViewSampleAppDelegate.h"
+i"CameraOverlayViewSampleViewController.h"
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleAppDelegate.h
+c000000004D60DB860000000000000225
+t1298193286
+s549
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleAppDelegate.m
+c000000004D60DB860000000000000B62
+t1298193286
+s2914
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleViewController.h
+c000000004D60D956000000000000011D
+t1298192726
+s285
+i<UIKit/UIKit.h>
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleViewController.m
+c000000004D60D9560000000000000600
+t1298192726
+s1536
+i"CameraOverlayViewSampleViewController.h"
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/MainWindow.xib
+c000000004D60D9560000000000004EE9
+t1298192726
+s20201
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/Objects-normal/i386/CameraOverlayViewSample.LinkFileList
+c000000004D60DB860000000000000243
+t1298193286
+s579
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/Objects-normal/i386/CameraOverlayViewSampleAppDelegate.o
+t1298193288
+s53148
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/Objects-normal/i386/CameraOverlayViewSampleViewController.o
+t1298193288
+s37868
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/Objects-normal/i386/main.o
+t1298193288
+s6540
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app
+t1298193288
+s170
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app.dSYM
+t1298193288
+s102
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app/CameraOverlayViewSample
+t1298193288
+s18284
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app/CameraOverlayViewSampleViewController.nib
+t2
+s0
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app/Info.plist
+t1298193286
+s628
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app/MainWindow.nib
+t2
+s0
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app/PkgInfo
+t1298193286
+s8
+
+N/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/main.m
+c000000004D60DB86000000000000019A
+t1298193286
+s410
+i<UIKit/UIKit.h>
+
+N/var/folders/YG/YG79OJyO2Ra1+k+BYoaOQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CameraOverlayViewSample_Prefix-czcwyusjgzwxsgatfddwsbjlggmc/CameraOverlayViewSample_Prefix.pch.gch
+t1298193287
+s15469840
+
+N/var/folders/YG/YG79OJyO2Ra1+k+BYoaOQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CameraOverlayViewSample_Prefix-hggxjajbyezomqdbrqppqcweznbd/CameraOverlayViewSample_Prefix.pch.gch
+t2
+s0
+
+NCameraOverlayViewSample-Info.plist
+c000000004D60DB860000000000000356
+t1298193286
+s854
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies319886086#319886086#0(0"0(0#1#0"9115021888716552#0"0#
+
+CCompileC build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/Objects-normal/i386/CameraOverlayViewSampleAppDelegate.o /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319886087.930871
+e319886088.091723
+r1
+xCompileC
+xbuild/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/Objects-normal/i386/CameraOverlayViewSampleAppDelegate.o
+x/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@109"Compile /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleAppDelegate.m319886087#319886088#0(0"0(0#0#101"/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleAppDelegate.m8618831040#2500"    cd /Users/nakagawasatoshi/Documents/CameraOverlayViewSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/CameraOverlayViewSample-generated-files.hmap -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/CameraOverlayViewSample-own-target-headers.hmap -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/CameraOverlayViewSample-all-target-headers.hmap -iquote /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/CameraOverlayViewSample-project-headers.hmap -F/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/include -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/DerivedSources/i386 -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/DerivedSources -include /var/folders/YG/YG79OJyO2Ra1+k+BYoaOQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CameraOverlayViewSample_Prefix-czcwyusjgzwxsgatfddwsbjlggmc/CameraOverlayViewSample_Prefix.pch -c /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleAppDelegate.m -o /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/Objects-normal/i386/CameraOverlayViewSampleAppDelegate.o0#
+
+CCompileC build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/Objects-normal/i386/CameraOverlayViewSampleViewController.o /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319886088.034423
+e319886088.139745
+r1
+xCompileC
+xbuild/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/Objects-normal/i386/CameraOverlayViewSampleViewController.o
+x/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@112"Compile /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleViewController.m319886088#319886088#0(0"0(0#0#104"/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleViewController.m8618737632#2506"    cd /Users/nakagawasatoshi/Documents/CameraOverlayViewSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/CameraOverlayViewSample-generated-files.hmap -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/CameraOverlayViewSample-own-target-headers.hmap -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/CameraOverlayViewSample-all-target-headers.hmap -iquote /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/CameraOverlayViewSample-project-headers.hmap -F/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/include -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/DerivedSources/i386 -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/DerivedSources -include /var/folders/YG/YG79OJyO2Ra1+k+BYoaOQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CameraOverlayViewSample_Prefix-czcwyusjgzwxsgatfddwsbjlggmc/CameraOverlayViewSample_Prefix.pch -c /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/Classes/CameraOverlayViewSampleViewController.m -o /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/Objects-normal/i386/CameraOverlayViewSampleViewController.o0#
+
+CCompileC build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/Objects-normal/i386/main.o /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319886087.929041
+e319886088.034266
+r1
+xCompileC
+xbuild/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/Objects-normal/i386/main.o
+x/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/main.m319886087#319886088#0(0"0(0#0#63"/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/main.m7019811570057442304#2432"    cd /Users/nakagawasatoshi/Documents/CameraOverlayViewSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/CameraOverlayViewSample-generated-files.hmap -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/CameraOverlayViewSample-own-target-headers.hmap -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/CameraOverlayViewSample-all-target-headers.hmap -iquote /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/CameraOverlayViewSample-project-headers.hmap -F/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/include -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/DerivedSources/i386 -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/DerivedSources -include /var/folders/YG/YG79OJyO2Ra1+k+BYoaOQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CameraOverlayViewSample_Prefix-czcwyusjgzwxsgatfddwsbjlggmc/CameraOverlayViewSample_Prefix.pch -c /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/main.m -o /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/CameraOverlayViewSampleViewController.xib
+r0
+
+CCompileXIB /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/MainWindow.xib
+r0
+
+CGenerateDSYMFile /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app.dSYM /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app/CameraOverlayViewSample
+s319886088.463098
+e319886088.500280
+r1
+xGenerateDSYMFile
+x/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app.dSYM
+x/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app/CameraOverlayViewSample
+lSLF07#2@157"GenerateDSYMFile build/Debug-iphonesimulator/CameraOverlayViewSample.app.dSYM build/Debug-iphonesimulator/CameraOverlayViewSample.app/CameraOverlayViewSample319886088#319886088#0(0"0(0#0#136"/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app/CameraOverlayViewSample8616827136#485"    cd /Users/nakagawasatoshi/Documents/CameraOverlayViewSample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app/CameraOverlayViewSample -o /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app.dSYM0#
+
+CLd /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app/CameraOverlayViewSample normal i386
+s319886088.139892
+e319886088.462782
+r1
+xLd
+x/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app/CameraOverlayViewSample
+xnormal
+xi386
+lSLF07#2@141"Link /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app/CameraOverlayViewSample319886088#319886088#0(0"0(0#0#0"8615575328#1070"    cd /Users/nakagawasatoshi/Documents/CameraOverlayViewSample    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator -F/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator -filelist /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/Objects-normal/i386/CameraOverlayViewSample.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app/CameraOverlayViewSample0#
+
+CProcessInfoPlistFile /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app/Info.plist CameraOverlayViewSample-Info.plist
+s319886086.779365
+e319886086.799710
+r1
+xProcessInfoPlistFile
+x/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app/Info.plist
+xCameraOverlayViewSample-Info.plist
+lSLF07#2@42"Process CameraOverlayViewSample-Info.plist319886086#319886086#0(0"0(0#0#91"/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/CameraOverlayViewSample-Info.plist27303360506822768#581"    cd /Users/nakagawasatoshi/Documents/CameraOverlayViewSample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility CameraOverlayViewSample-Info.plist -genpkginfo /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app/Info.plist0#
+
+CProcessPCH /var/folders/YG/YG79OJyO2Ra1+k+BYoaOQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CameraOverlayViewSample_Prefix-czcwyusjgzwxsgatfddwsbjlggmc/CameraOverlayViewSample_Prefix.pch.gch CameraOverlayViewSample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s319886086.800050
+e319886087.928869
+r1
+xProcessPCH
+x/var/folders/YG/YG79OJyO2Ra1+k+BYoaOQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CameraOverlayViewSample_Prefix-czcwyusjgzwxsgatfddwsbjlggmc/CameraOverlayViewSample_Prefix.pch.gch
+xCameraOverlayViewSample_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Precompile CameraOverlayViewSample_Prefix.pch319886086#319886087#0(0"0(0#0#91"/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/CameraOverlayViewSample_Prefix.pch8618767584#2290"    cd /Users/nakagawasatoshi/Documents/CameraOverlayViewSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/CameraOverlayViewSample-generated-files.hmap -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/CameraOverlayViewSample-own-target-headers.hmap -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/CameraOverlayViewSample-all-target-headers.hmap -iquote /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/CameraOverlayViewSample-project-headers.hmap -F/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/include -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/DerivedSources/i386 -I/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/CameraOverlayViewSample.build/Debug-iphonesimulator/CameraOverlayViewSample.build/DerivedSources -c /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/CameraOverlayViewSample_Prefix.pch -o /var/folders/YG/YG79OJyO2Ra1+k+BYoaOQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CameraOverlayViewSample_Prefix-czcwyusjgzwxsgatfddwsbjlggmc/CameraOverlayViewSample_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/YG/YG79OJyO2Ra1+k+BYoaOQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CameraOverlayViewSample_Prefix-hggxjajbyezomqdbrqppqcweznbd/CameraOverlayViewSample_Prefix.pch.gch CameraOverlayViewSample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app
+s319886088.500413
+e319886088.507390
+r1
+xTouch
+x/Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app
+lSLF07#2@118"Touch /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app319886088#319886088#0(0"0(0#0#0"8614885312#330"    cd /Users/nakagawasatoshi/Documents/CameraOverlayViewSample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/nakagawasatoshi/Documents/CameraOverlayViewSample/build/Debug-iphonesimulator/CameraOverlayViewSample.app0#
+
