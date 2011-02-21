@@ -30,14 +30,14 @@
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
-    [super viewDidLoad];
+	[super viewDidLoad];
 	
 	self.view.backgroundColor = [UIColor lightGrayColor];
 	
 	//ここから上部ツールバー	
 	UIToolbar *toolbar1 = [[[UIToolbar alloc] init] autorelease];
 	toolbar1.barStyle = UIBarStyleDefault;
-    [toolbar1 sizeToFit];
+	[toolbar1 sizeToFit];
 	toolbar1.frame = CGRectMake(0, 0, 320, 44);
 	toolbar1.barStyle = UIBarStyleBlackOpaque;
 	
