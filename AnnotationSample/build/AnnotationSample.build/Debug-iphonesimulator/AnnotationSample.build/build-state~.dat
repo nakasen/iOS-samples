@@ -1,270 +1,0 @@
-TAnnotationSample
-v7
-r0
-t317212077.948836
-cCheck dependencies
-cProcessInfoPlistFile /Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app/Info.plist AnnotationSample-Info.plist
-cProcessPCH /var/folders/YG/YG79OJyO2Ra1+k+BYoaOQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AnnotationSample_Prefix-fxayqwhbtnefumbdsywvaielkwun/AnnotationSample_Prefix.pch.gch AnnotationSample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/Objects-normal/i386/main.o /Users/nakagawasatoshi/Documents/AnnotationSample/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/Objects-normal/i386/AnnotationSampleAppDelegate.o /Users/nakagawasatoshi/Documents/AnnotationSample/Classes/AnnotationSampleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/Objects-normal/i386/AnnotationSampleViewController.o /Users/nakagawasatoshi/Documents/AnnotationSample/Classes/AnnotationSampleViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app/AnnotationSample normal i386
-cGenerateDSYMFile /Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app.dSYM /Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app/AnnotationSample
-cTouch /Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
-c000000004CC128950000000000000110
-t1287727253
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC12246000000000029B310
-t1287725638
-s2732816
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c000000004CC127E80000000000074190
-t1287727080
-s475536
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
-c000000004CC127DD00000000000001D0
-t1287727069
-s464
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC1226D000000000029D5D0
-t1287725677
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC1225F0000000000001466
-t1287725663
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
-c000000004CC1294D00000000000002FE
-t1287727437
-s766
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
-c000000004CC12977000000000017E7F0
-t1287727479
-s1566704
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC1281F0000000000000AA1
-t1287727135
-s2721
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC12883000000000074D7B0
-t1287727235
-s7657392
-
-N/Users/nakagawasatoshi/Documents/AnnotationSample/AnnotationSampleViewController.xib
-c000000004D380B060000000000001A69
-t1295518470
-s6761
-
-N/Users/nakagawasatoshi/Documents/AnnotationSample/AnnotationSample_Prefix.pch
-c000000004D380E2B0000000000000155
-t1295519275
-s341
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-i<CoreLocation/CoreLocation.h>
-i<MapKit/MapKit.h>
-i"AnnotationSampleAppDelegate.h"
-i"AnnotationSampleViewController.h"
-
-N/Users/nakagawasatoshi/Documents/AnnotationSample/Classes/AnnotationSampleAppDelegate.h
-c000000004D380E2B00000000000001FC
-t1295519275
-s508
-
-N/Users/nakagawasatoshi/Documents/AnnotationSample/Classes/AnnotationSampleAppDelegate.m
-c000000004D380E2B0000000000000AF0
-t1295519275
-s2800
-
-N/Users/nakagawasatoshi/Documents/AnnotationSample/Classes/AnnotationSampleViewController.h
-c000000004D380D1E000000000000011F
-t1295519006
-s287
-
-N/Users/nakagawasatoshi/Documents/AnnotationSample/Classes/AnnotationSampleViewController.m
-c000000004D380E2B00000000000005B9
-t1295519275
-s1465
-
-N/Users/nakagawasatoshi/Documents/AnnotationSample/MainWindow.xib
-c000000004D380B060000000000004E95
-t1295518470
-s20117
-
-N/Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/Objects-normal/i386/AnnotationSample.LinkFileList
-c000000004D380E2C00000000000001F6
-t1295519276
-s502
-
-N/Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/Objects-normal/i386/AnnotationSampleAppDelegate.o
-t1295519277
-s52828
-
-N/Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/Objects-normal/i386/AnnotationSampleViewController.o
-t1295519277
-s42004
-
-N/Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/Objects-normal/i386/main.o
-t1295519277
-s6620
-
-N/Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app
-t1295519277
-s170
-
-N/Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app.dSYM
-t1295519277
-s102
-
-N/Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app/AnnotationSample
-t1295519277
-s17940
-
-N/Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app/AnnotationSampleViewController.nib
-t2
-s0
-
-N/Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app/Info.plist
-t1295519276
-s600
-
-N/Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app/MainWindow.nib
-t2
-s0
-
-N/Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app/PkgInfo
-t1295519276
-s8
-
-N/Users/nakagawasatoshi/Documents/AnnotationSample/main.m
-c000000004D380E2B000000000000018C
-t1295519275
-s396
-i<UIKit/UIKit.h>
-
-N/var/folders/YG/YG79OJyO2Ra1+k+BYoaOQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AnnotationSample_Prefix-bowtgntpmxixbrgogzckpmjtrtcy/AnnotationSample_Prefix.pch.gch
-t2
-s0
-
-N/var/folders/YG/YG79OJyO2Ra1+k+BYoaOQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AnnotationSample_Prefix-fxayqwhbtnefumbdsywvaielkwun/AnnotationSample_Prefix.pch.gch
-t1295519277
-s16072912
-
-NAnnotationSample-Info.plist
-c000000004D380E2B0000000000000356
-t1295519275
-s854
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies317212076#317212076#0(0"0(0#1#0"30962526613156040#0"0#
-
-CCompileC build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/Objects-normal/i386/AnnotationSampleAppDelegate.o /Users/nakagawasatoshi/Documents/AnnotationSample/Classes/AnnotationSampleAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317212077.350566
-e317212077.522703
-r1
-xCompileC
-xbuild/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/Objects-normal/i386/AnnotationSampleAppDelegate.o
-x/Users/nakagawasatoshi/Documents/AnnotationSample/Classes/AnnotationSampleAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@95"Compile /Users/nakagawasatoshi/Documents/AnnotationSample/Classes/AnnotationSampleAppDelegate.m317212077#317212077#0(0"0(0#0#87"/Users/nakagawasatoshi/Documents/AnnotationSample/Classes/AnnotationSampleAppDelegate.m8620852704#2269"    cd /Users/nakagawasatoshi/Documents/AnnotationSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/AnnotationSample-generated-files.hmap -I/Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/AnnotationSample-own-target-headers.hmap -I/Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/AnnotationSample-all-target-headers.hmap -iquote /Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/AnnotationSample-project-headers.hmap -F/Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator -I/Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/include -I/Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/DerivedSources/i386 -I/Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/DerivedSources -include /var/folders/YG/YG79OJyO2Ra1+k+BYoaOQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AnnotationSample_Prefix-fxayqwhbtnefumbdsywvaielkwun/AnnotationSample_Prefix.pch -c /Users/nakagawasatoshi/Documents/AnnotationSample/Classes/AnnotationSampleAppDelegate.m -o /Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/Objects-normal/i386/AnnotationSampleAppDelegate.o0#
-
-CCompileC build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/Objects-normal/i386/AnnotationSampleViewController.o /Users/nakagawasatoshi/Documents/AnnotationSample/Classes/AnnotationSampleViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317212077.460688
-e317212077.571023
-r1
-xCompileC
-xbuild/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/Objects-normal/i386/AnnotationSampleViewController.o
-x/Users/nakagawasatoshi/Documents/AnnotationSample/Classes/AnnotationSampleViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@98"Compile /Users/nakagawasatoshi/Documents/AnnotationSample/Classes/AnnotationSampleViewController.m317212077#317212077#0(0"0(0#0#90"/Users/nakagawasatoshi/Documents/AnnotationSample/Classes/AnnotationSampleViewController.m8619266944#2275"    cd /Users/nakagawasatoshi/Documents/AnnotationSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/AnnotationSample-generated-files.hmap -I/Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/AnnotationSample-own-target-headers.hmap -I/Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/AnnotationSample-all-target-headers.hmap -iquote /Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/AnnotationSample-project-headers.hmap -F/Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator -I/Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/include -I/Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/DerivedSources/i386 -I/Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/DerivedSources -include /var/folders/YG/YG79OJyO2Ra1+k+BYoaOQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AnnotationSample_Prefix-fxayqwhbtnefumbdsywvaielkwun/AnnotationSample_Prefix.pch -c /Users/nakagawasatoshi/Documents/AnnotationSample/Classes/AnnotationSampleViewController.m -o /Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/Objects-normal/i386/AnnotationSampleViewController.o0#
-
-CCompileC build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/Objects-normal/i386/main.o /Users/nakagawasatoshi/Documents/AnnotationSample/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317212077.348802
-e317212077.460526
-r1
-xCompileC
-xbuild/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/Objects-normal/i386/main.o
-x/Users/nakagawasatoshi/Documents/AnnotationSample/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/nakagawasatoshi/Documents/AnnotationSample/main.m317212077#317212077#0(0"0(0#0#56"/Users/nakagawasatoshi/Documents/AnnotationSample/main.m8017585366396792832#2215"    cd /Users/nakagawasatoshi/Documents/AnnotationSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/AnnotationSample-generated-files.hmap -I/Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/AnnotationSample-own-target-headers.hmap -I/Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/AnnotationSample-all-target-headers.hmap -iquote /Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/AnnotationSample-project-headers.hmap -F/Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator -I/Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/include -I/Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/DerivedSources/i386 -I/Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/DerivedSources -include /var/folders/YG/YG79OJyO2Ra1+k+BYoaOQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AnnotationSample_Prefix-fxayqwhbtnefumbdsywvaielkwun/AnnotationSample_Prefix.pch -c /Users/nakagawasatoshi/Documents/AnnotationSample/main.m -o /Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/nakagawasatoshi/Documents/AnnotationSample/AnnotationSampleViewController.xib
-r0
-
-CCompileXIB /Users/nakagawasatoshi/Documents/AnnotationSample/MainWindow.xib
-r0
-
-CGenerateDSYMFile /Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app.dSYM /Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app/AnnotationSample
-s317212077.655809
-e317212077.690941
-r1
-xGenerateDSYMFile
-x/Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app.dSYM
-x/Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app/AnnotationSample
-lSLF07#2@136"GenerateDSYMFile build/Debug-iphonesimulator/AnnotationSample.app.dSYM build/Debug-iphonesimulator/AnnotationSample.app/AnnotationSample317212077#317212077#0(0"0(0#0#115"/Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app/AnnotationSample8618233632#443"    cd /Users/nakagawasatoshi/Documents/AnnotationSample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app/AnnotationSample -o /Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app.dSYM0#
-
-CLd /Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app/AnnotationSample normal i386
-s317212077.571166
-e317212077.655544
-r1
-xLd
-x/Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app/AnnotationSample
-xnormal
-xi386
-lSLF07#2@120"Link /Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app/AnnotationSample317212077#317212077#0(0"0(0#0#0"8618904928#1042"    cd /Users/nakagawasatoshi/Documents/AnnotationSample    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator -F/Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator -filelist /Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/Objects-normal/i386/AnnotationSample.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -o /Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app/AnnotationSample0#
-
-CProcessInfoPlistFile /Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app/Info.plist AnnotationSample-Info.plist
-s317212076.127012
-e317212076.157603
-r1
-xProcessInfoPlistFile
-x/Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app/Info.plist
-xAnnotationSample-Info.plist
-lSLF07#2@35"Process AnnotationSample-Info.plist317212076#317212076#0(0"0(0#0#77"/Users/nakagawasatoshi/Documents/AnnotationSample/AnnotationSample-Info.plist31244173394051168#539"    cd /Users/nakagawasatoshi/Documents/AnnotationSample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility AnnotationSample-Info.plist -genpkginfo /Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app/Info.plist0#
-
-CProcessPCH /var/folders/YG/YG79OJyO2Ra1+k+BYoaOQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AnnotationSample_Prefix-bowtgntpmxixbrgogzckpmjtrtcy/AnnotationSample_Prefix.pch.gch AnnotationSample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CProcessPCH /var/folders/YG/YG79OJyO2Ra1+k+BYoaOQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AnnotationSample_Prefix-fxayqwhbtnefumbdsywvaielkwun/AnnotationSample_Prefix.pch.gch AnnotationSample_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s317212076.157891
-e317212077.348647
-r1
-xProcessPCH
-x/var/folders/YG/YG79OJyO2Ra1+k+BYoaOQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AnnotationSample_Prefix-fxayqwhbtnefumbdsywvaielkwun/AnnotationSample_Prefix.pch.gch
-xAnnotationSample_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@38"Precompile AnnotationSample_Prefix.pch317212076#317212077#0(0"0(0#0#77"/Users/nakagawasatoshi/Documents/AnnotationSample/AnnotationSample_Prefix.pch8620060640#2087"    cd /Users/nakagawasatoshi/Documents/AnnotationSample    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/AnnotationSample-generated-files.hmap -I/Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/AnnotationSample-own-target-headers.hmap -I/Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/AnnotationSample-all-target-headers.hmap -iquote /Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/AnnotationSample-project-headers.hmap -F/Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator -I/Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/include -I/Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/DerivedSources/i386 -I/Users/nakagawasatoshi/Documents/AnnotationSample/build/AnnotationSample.build/Debug-iphonesimulator/AnnotationSample.build/DerivedSources -c /Users/nakagawasatoshi/Documents/AnnotationSample/AnnotationSample_Prefix.pch -o /var/folders/YG/YG79OJyO2Ra1+k+BYoaOQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AnnotationSample_Prefix-fxayqwhbtnefumbdsywvaielkwun/AnnotationSample_Prefix.pch.gch0#
-
-CTouch /Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app
-s317212077.691071
-e317212077.948720
-r1
-xTouch
-x/Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app
-lSLF07#2@104"Touch /Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app317212077#317212077#0(0"0(0#0#0"8617712416#309"    cd /Users/nakagawasatoshi/Documents/AnnotationSample    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/nakagawasatoshi/Documents/AnnotationSample/build/Debug-iphonesimulator/AnnotationSample.app0#
-
