@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12D78" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Gakusei" representedClassName="Gakusei" syncable="YES">
+        <attribute name="gakusekiNo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="shikakuHyo" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Shikaku" inverseName="gakusei" inverseEntity="Shikaku" syncable="YES"/>
+    </entity>
+    <entity name="Shikaku" representedClassName="Shikaku" syncable="YES">
+        <attribute name="seqNo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="gakusei" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Gakusei" inverseName="shikakuHyo" inverseEntity="Gakusei" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Gakusei" positionX="160" positionY="192" width="128" height="88"/>
+        <element name="Shikaku" positionX="414" positionY="216" width="128" height="88"/>
+    </elements>
+</model>
