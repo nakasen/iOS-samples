@@ -8,9 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@protocol textFieldDelegate <NSObject>
+
+- (void)firstTextFieldSend:(NSString *)argString;
+
+@end
+
+@interface SecondViewController : UIViewController <textFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UILabel *myLabel;
+
 @property (strong, nonatomic) NSString *myString;
+
+@property (unsafe_unretained) id <textFieldDelegate> delegate;
 
 @end

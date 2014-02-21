@@ -7,8 +7,10 @@
 //
 
 #import "SecondViewController.h"
+#import "AppDelegate.h"
 
-@interface SecondViewController ()
+@interface SecondViewController () <UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet UITextField *secondTextField;
 
 @end
 
@@ -29,12 +31,29 @@
 	// Do any additional setup after loading the view.
     NSLog(@"myString = %@", _myString);
     _myLabel.text = _myString;
+    _secondTextField.delegate = self;
+}
+
+- (IBAction)buttonAction:(id)sender {
+    if ([self.delegate respondsToSelector:@selector(firstTextFieldSend:)])     {
+        [self.delegate firstTextFieldSend:_secondTextField.text];
+    } else {
+        NSLog(@"プロトコルメソッド実装エラー");
+    }
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [_secondTextField resignFirstResponder];
+    AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    appDelegate.sharedString = _secondTextField.text;
+    return YES;
 }
 
 @end
