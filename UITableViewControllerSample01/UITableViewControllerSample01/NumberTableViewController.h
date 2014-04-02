@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DetailViewController.h"
 
 @interface NumberTableViewController : UITableViewController
 

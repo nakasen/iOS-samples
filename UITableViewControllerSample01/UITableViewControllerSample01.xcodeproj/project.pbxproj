@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4479A8E18EC16D2009225F2 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4479A8D18EC16D2009225F2 /* DetailViewController.m */; };
 		B4A17E6118E5757F00556497 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A17E6018E5757F00556497 /* Foundation.framework */; };
 		B4A17E6318E5757F00556497 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A17E6218E5757F00556497 /* CoreGraphics.framework */; };
 		B4A17E6518E5757F00556497 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A17E6418E5757F00556497 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B4479A8C18EC16D2009225F2 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B4479A8D18EC16D2009225F2 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		B4A17E5D18E5757F00556497 /* UITableViewControllerSample01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableViewControllerSample01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A17E6018E5757F00556497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B4A17E6218E5757F00556497 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -124,6 +127,8 @@
 				B4A17E6718E5757F00556497 /* Supporting Files */,
 				B4A17E9518E5764C00556497 /* NumberTableViewController.h */,
 				B4A17E9618E5764C00556497 /* NumberTableViewController.m */,
+				B4479A8C18EC16D2009225F2 /* DetailViewController.h */,
+				B4479A8D18EC16D2009225F2 /* DetailViewController.m */,
 			);
 			path = UITableViewControllerSample01;
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4479A8E18EC16D2009225F2 /* DetailViewController.m in Sources */,
 				B4A17E7718E5757F00556497 /* ViewController.m in Sources */,
 				B4A17E7118E5757F00556497 /* AppDelegate.m in Sources */,
 				B4A17E9718E5764C00556497 /* NumberTableViewController.m in Sources */,
@@ -462,6 +468,7 @@
 				B4A17E9118E5757F00556497 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4A17E9218E5757F00556497 /* Build configuration list for PBXNativeTarget "UITableViewControllerSample01Tests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +477,7 @@
 				B4A17E9418E5757F00556497 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

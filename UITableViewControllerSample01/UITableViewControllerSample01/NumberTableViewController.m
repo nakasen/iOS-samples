@@ -15,6 +15,7 @@
 }
 
 @property (nonatomic, strong) NSArray *dataArray;
+@property (nonatomic, strong) NSArray *detailArray;
 @property (nonatomic, strong) NSArray *sectionHeaderArray;
 
 @end
@@ -56,6 +57,10 @@
     _dataArray = @[@[@"北海道"],
                    @[@"青森県", @"岩手県", @"秋田県", @"宮城県", @"山形県", @"福島県"],
                    @[@"茨城県", @"栃木県", @"群馬県", @"千葉県", @"埼玉県", @"東京都", @"神奈川県"]];
+    
+    _detailArray = @[@[@"札幌"],
+                   @[@"青森", @"盛岡", @"秋田", @"仙台", @"山形", @"福島"],
+                   @[@"水戸", @"宇都宮", @"前橋", @"千葉", @"さいたま", @"東京", @"横浜"]];
     
     _sectionHeaderArray = @[@"北海道地方", @"東北地方", @"関東地方"];
 }
@@ -139,7 +144,6 @@
 }
 */
 
-/*
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -147,7 +151,15 @@
 {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    /*
+    if ([segue.identifier isEqualToString:@"detailSegue"]) {
+        DetailViewController *detailVC = [segue destinationViewController];
+        NSIndexPath *path = [self.tableView indexPathForSelectedRow];
+        detailVC.detailString = [self.detailArray objectAtIndexPath:path];
+     
+    }
+     */
 }
-*/
+
 
 @end
