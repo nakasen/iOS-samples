@@ -1,26 +1,18 @@
 //
-//  NumberTableViewController.m
-//  UITableViewControllerSample01
+//  ListTableViewController.m
+//  Temp01
 //
-//  Created by Satoshi Nakagawa on 2014/03/28.
+//  Created by Satoshi Nakagawa on 2014/04/02.
 //  Copyright (c) 2014年 nakasen.com. All rights reserved.
 //
 
-#import "NumberTableViewController.h"
+#import "ListTableViewController.h"
 
-@interface NumberTableViewController ()
-{
-    //NSArray *dataArray;
-    //NSArray *sectionHeaderArray;
-}
-
-@property (nonatomic, strong) NSArray *dataArray;
-@property (nonatomic, strong) NSArray *detailArray;
-@property (nonatomic, strong) NSArray *sectionHeaderArray;
+@interface ListTableViewController ()
 
 @end
 
-@implementation NumberTableViewController
+@implementation ListTableViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -41,28 +33,16 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
-    
-    // [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
-    
-    // dataArray = @[@"A", @"B", @"C"];
-    // dataArray = [NSArray arrayWithObjects:@"A", @"B", @"C", nil]; // 旧来の書き方
-    // 
-    // dataArray = @[@1, @2, @3];
-    // dataArray = [NSArray arrayWithObjects: // 旧来の書き方
-    //              [NSNumber numberWithInt:1],
-    //              [NSNumber numberWithInt:2],
-    //              [NSNumber numberWithInt:3],
-    //              nil];
-    
     _dataArray = @[@[@"北海道"],
                    @[@"青森県", @"岩手県", @"秋田県", @"宮城県", @"山形県", @"福島県"],
                    @[@"茨城県", @"栃木県", @"群馬県", @"千葉県", @"埼玉県", @"東京都", @"神奈川県"]];
     
     _detailArray = @[@[@"札幌"],
-                   @[@"青森", @"盛岡", @"秋田", @"仙台", @"山形", @"福島"],
-                   @[@"水戸", @"宇都宮", @"前橋", @"千葉", @"さいたま", @"東京", @"横浜"]];
+                     @[@"青森", @"盛岡", @"秋田", @"仙台", @"山形", @"福島"],
+                     @[@"水戸", @"宇都宮", @"前橋", @"千葉", @"さいたま", @"東京", @"横浜"]];
     
     _sectionHeaderArray = @[@"北海道地方", @"東北地方", @"関東地方"];
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -84,28 +64,24 @@
 {
 // #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    // return [[_dataArray objectAtIndex:section] count]; // 旧来の書き方
     return [_dataArray[section] count];
 }
+
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    // UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault  reuseIdentifier:@"Cell"];
     
     // Configure the cell...
-    // cell.textLabel.text = [[_dataArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row]; // 旧来の書き方
+    
     cell.textLabel.text = _dataArray[indexPath.section][indexPath.row];
-
+    
+    // Configure the cell...
+    
     return cell;
 }
 
-- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section // セクションのヘッダタイトル
-{
-    // return [_sectionArray objectAtIndex:section]; // 旧来の書き方
-    return _sectionHeaderArray[section];
-}
 
 /*
 // Override to support conditional editing of the table view.
@@ -145,13 +121,6 @@
 }
 */
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    DetailViewController *detailVC = [[DetailViewController alloc] init];
-    detailVC.detailString = [[self.detailArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
-    [self.navigationController pushViewController:detailVC animated:YES];
-}
-
 
 #pragma mark - Navigation
 
@@ -160,15 +129,13 @@
 {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
-
     
     if ([[segue identifier] isEqualToString:@"detailSegue"]) {
-        NSLog(@"pass");
         DetailViewController *detailVC = [segue destinationViewController];
         NSIndexPath *path = [self.tableView indexPathForSelectedRow];
-        detailVC.detailString = [[self.detailArray objectAtIndex:path.section] objectAtIndex:path.row];
+        detailVC.detailString = _detailArray[path.section][path.row];
     }
-    
+
 }
 
 
