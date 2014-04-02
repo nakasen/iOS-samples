@@ -10,6 +10,7 @@
 
 @interface DetailViewController : UIViewController
 
+//@property (strong, nonatomic) id detailItem;
 @property (nonatomic, strong) NSString *detailString;
 
 @end

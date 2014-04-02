@@ -8,15 +8,13 @@
 
 #import "NumberTableViewController.h"
 
+#import "DetailViewController.h"
+
 @interface NumberTableViewController ()
 {
     //NSArray *dataArray;
     //NSArray *sectionHeaderArray;
 }
-
-@property (nonatomic, strong) NSArray *dataArray;
-@property (nonatomic, strong) NSArray *detailArray;
-@property (nonatomic, strong) NSArray *sectionHeaderArray;
 
 @end
 
@@ -145,13 +143,14 @@
 }
 */
 
+/*
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     DetailViewController *detailVC = [[DetailViewController alloc] init];
     detailVC.detailString = [[self.detailArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
     [self.navigationController pushViewController:detailVC animated:YES];
 }
-
+*/
 
 #pragma mark - Navigation
 
@@ -161,14 +160,11 @@
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
 
-    
     if ([[segue identifier] isEqualToString:@"detailSegue"]) {
-        NSLog(@"pass");
         DetailViewController *detailVC = [segue destinationViewController];
-        NSIndexPath *path = [self.tableView indexPathForSelectedRow];
-        detailVC.detailString = [[self.detailArray objectAtIndex:path.section] objectAtIndex:path.row];
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        detailVC.detailString = _detailArray[indexPath.section][indexPath.row];
     }
-    
 }
 
 

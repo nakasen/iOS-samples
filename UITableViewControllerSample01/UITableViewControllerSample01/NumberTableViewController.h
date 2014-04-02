@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DetailViewController.h"
 
 @interface NumberTableViewController : UITableViewController
+
+@property (nonatomic, strong) NSArray *dataArray;
+@property (nonatomic, strong) NSArray *detailArray;
+@property (nonatomic, strong) NSArray *sectionHeaderArray;
 
 @end

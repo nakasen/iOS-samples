@@ -10,6 +10,10 @@
 
 @interface DetailViewController ()
 
+// - (void)configureView;
+
+@property (weak, nonatomic) IBOutlet UILabel *detailLabel;
+
 @end
 
 @implementation DetailViewController
@@ -23,10 +27,34 @@
     return self;
 }
 
+/*
+- (void)setDetailItem:(id)newDetailItem
+{
+    if (_detailItem != newDetailItem) {
+        _detailItem = newDetailItem;
+        
+        // Update the view.
+        [self configureView];
+    }
+}
+
+- (void)configureView
+{
+    // Update the user interface for the detail item.
+    
+    if (self.detailItem) {
+        self.detailLabel.text = [self.detailItem description];
+    }
+}
+*/
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    // [self configureView];
+    
+    _detailLabel.text = [NSString stringWithFormat:@"都道府県庁所在地は、%@です。", self.detailString];
 }
 
 - (void)didReceiveMemoryWarning

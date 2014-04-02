@@ -23,7 +23,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="sEg-xV-iH6" kind="push" id="RL5-xb-Szs"/>
+                                    <segue destination="sEg-xV-iH6" kind="push" id="d9S-aZ-ROW"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -52,7 +52,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="YV0-7x-H1I" kind="push" identifier="detailSegue" id="nM3-fc-aKt"/>
+                                    <segue destination="YV0-7x-H1I" kind="push" identifier="detailSegue" id="6No-qG-qn2"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -78,9 +78,21 @@
                     <view key="view" contentMode="scaleToFill" id="STY-iJ-KPh">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kmh-At-v8n">
+                                <rect key="frame" x="20" y="273" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Detail View" id="1Bl-yq-UuL"/>
+                    <connections>
+                        <outlet property="detailLabel" destination="Kmh-At-v8n" id="eWO-wt-AbW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bOY-3r-F4L" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
